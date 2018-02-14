@@ -1,5 +1,11 @@
 # Clog-CLI Alpine
 
+---
+
+**DEPRECATED:** Use the `clog-vX.X.X-x86_64-unknown-linux-musl.tar.gz` binary provided at [clog-tool/clog-cli/releases](https://github.com/clog-tool/clog-cli/releases), it works fine for Alpine. This repo is kept for maintenance.
+
+---
+
 This is a one-shot cross-compiler container for building the [clog-cli](https://github.com/clog-tool/clog-cli) binary for [Alpine Linux](https://hub.docker.com/_/alpine/).
 
 Running this container will build `clog` and deposit it in the `/output/` directory. If this directory is volumed on your local system, your host will have access to the resulting binaries.
