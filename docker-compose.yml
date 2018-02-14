@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+
+  clog-cli-alpine:
+    image: emcniece/clog-cli-alpine:0.0.1
+    restart: "no"
+    volumes:
+    - ./output:/output
+    environment:
+      BRANCH: master
